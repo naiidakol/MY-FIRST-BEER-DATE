@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>My Beer Story</title> 
+<link rel="stylesheet" href="styles.css"> 
+
+
+	  
+</head>
+<body>
+
+<div id="age-verification-popup" class="hidden">
+    <h2>Legal Drinking Age</h2>
+    <p>Please enter your age:</p>
+    <input type="number" id="user-age">
+    <button id="submit-age">Submit</button>
+  </div>
+
+  <script src="script.js"></script>
+  
+  
+<script>
+const ageVerificationPopup = document.getElementById('age-verification-popup');
+const submitAgeButton = document.getElementById('submit-age');
+const userAgeInput = document.getElementById('user-age');
+const legalDrinkingAge = 18; // Replace with your country's legal drinking age
+
+// Show the popup on page load
+window.onload = function() {
+  ageVerificationPopup.classList.remove('hidden');
+};
+
+submitAgeButton.addEventListener('click', () => {
+  const userAge = parseInt(userAgeInput.value);
+
+  if (isNaN(userAge) || userAge < legalDrinkingAge) {
+    alert('You must be of legal drinking age to access this website.');
+  } else {
+    // User is of legal age, proceed to website content
+    ageVerificationPopup.classList.add('hidden');
+    // Replace this with your code to display main website content
+    console.log('User is of legal age');
+  }
+});
+
+</script>
+
+
+
+
+
+
+
+
+ 
+
+</body>
+
+
+
+
+
+
+
+
+	 	 <H1 id="nicetitle">Welcome to My first beer date</H1>
+
+	<div class="image-container">
+  <img src="mybigbeer.jpg" alt="Image description">
+  
+  
+</div>
+
+	 
+	   <h2>So...Who am I?</h2>
+	   <link rel="stylesheet" href="styles.css">
+	   <p> My name is Nadya Kolosov and I am 31 years old. I live in Haifa with my husband and my 2.5 year old sweet daughter.
+	   I love to travel and have fun with my family.
+	   <br>All of this started from my hasband's and my love to beer.</p>
+	    
+	  
+	   <h3> My first date at beer festival </h3>
+	   <p>My first date with my husband happened in <a href="https://www.sls-shalev.co.il/%D7%9E%D7%AA%D7%97%D7%9D-%D7%94%D7%AA%D7%97%D7%A0%D7%94-2014"> Tel Aviv Beer Festival 2014</a>.
+	   
+	   <br>It was so amazing and fun!! </br>
+	   <br>So...since than I fell in love with my hasband and with these special beers that we still drink them together. </p>
+	   
+	   <h3>Which beers do I like?</h3>
+	   <ul>
+			<li><a href="https://www.duvel.com">Duvel</a></li>
+			
+			<li><a href="https://www.delirium.be/en/beers/delirium-tremens">Delirium Tremens</a></li>
+			<li><a href ="https://leffe.com/en">Leffe</a></li>
+	   </ul>
+	   
+	   <a href 
+</bod
+</html>

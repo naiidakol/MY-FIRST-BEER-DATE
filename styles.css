@@ -1,0 +1,81 @@
+
+
+body {
+  font-family: Garamond, sans-serif;
+  background-color: coral;
+  max-width: 800px;
+  margin: auto
+   
+}
+
+
+
+h1, h2, h3{color: blue;}
+
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+  padding: 60px 30px; /* Add padding for spacing within the border */
+  border-bottom: 6px solid white;
+  margin-bottom: 10px; /* Add space below the heading */
+}
+ 
+
+
+.image-container img {
+  position: absolute; /* Make the image absolutely positioned within the container */
+  top: 0; /* Place the image at the top of the container */
+  left: 0; /* Place the image at the left of the container */
+}
+
+img {
+  width: 350px; /* Set desired width */
+  height: 550px; /* Set desired height */
+}
+
+.framed-img {
+  border: 2px solid #ccc; /* Adjust border width and color */
+  border-radius: 5px; /* Set corner roundness */
+  padding: 20px; /* Add space between image and border */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+img:hover {
+  transform: scaleX(-1);
+}
+
+img {
+  border-radius: 50%;
+}
+
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#age-verification-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+  z-index: 9999;
+}
+
+
+
+
+
+
+
+
